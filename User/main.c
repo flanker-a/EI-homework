@@ -36,8 +36,6 @@ int main(void)
 			GPIO_SetBits(GPIOB,GPIO_Pin_13);
 			GPIO_ResetBits(GPIOB,GPIO_Pin_12);
 		}
-		
-		
 		if(T3 < 10)
 		{
 			GPIO_SetBits(GPIOB,GPIO_Pin_14);
@@ -48,8 +46,6 @@ int main(void)
 			GPIO_SetBits(GPIOB,GPIO_Pin_15);
 			GPIO_ResetBits(GPIOB,GPIO_Pin_14);
 		}
-		
-		
 		if(T4 < 10)
 		{
 			GPIO_SetBits(GPIOA,GPIO_Pin_11);
@@ -60,25 +56,11 @@ int main(void)
 			GPIO_SetBits(GPIOA,GPIO_Pin_12);
 			GPIO_ResetBits(GPIOA,GPIO_Pin_11);
 		}
-//		
-//		k = serial_receivebyte();
-//		if(k == 0x0031)
-//		{
-//			servo_angle(90);
-//			if(ad_judge(ad_getvalue()) == 1)
-//			{
-//				servo_angle(0);
-//			}
-//		}
-//		else
-//		{
-			if(ad_judge(ad_getvalue()) == 1)
-			{
-				servo_angle(0);
-			}
-//			
-//		}
-//		OLED_ShowNum(1, 10, T2, 3);
-//		Delay_ms(100);
+
+		if(ad_judge(ad_getvalue()) == 1)
+		{
+			servo_angle(0);
+		}
+
 	}
 }

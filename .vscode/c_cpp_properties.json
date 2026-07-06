@@ -3,14 +3,14 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\saki\\Desktop\\HC-SR04\\ei homework\\Start",
-                "c:\\Users\\saki\\Desktop\\HC-SR04\\ei homework\\Library",
-                "c:\\Users\\saki\\Desktop\\HC-SR04\\ei homework\\User",
-                "c:\\Users\\saki\\Desktop\\HC-SR04\\ei homework\\System",
-                "c:\\Users\\saki\\Desktop\\HC-SR04\\ei homework\\Hardware",
+                "c:\\Users\\saki\\Desktop\\Engineer Introduce\\ei-homework\\Start",
+                "c:\\Users\\saki\\Desktop\\Engineer Introduce\\ei-homework\\Library",
+                "c:\\Users\\saki\\Desktop\\Engineer Introduce\\ei-homework\\User",
+                "c:\\Users\\saki\\Desktop\\Engineer Introduce\\ei-homework\\System",
+                "c:\\Users\\saki\\Desktop\\Engineer Introduce\\ei-homework\\Hardware",
                 "D:\\keil5\\32\\Keil5 MDK\\ARM\\ARMCC\\include",
                 "D:\\keil5\\32\\Keil5 MDK\\ARM\\ARMCC\\include\\rw",
-                "c:\\Users\\saki\\Desktop\\HC-SR04\\ei homework\\HardWare"
+                "c:\\Users\\saki\\Desktop\\Engineer Introduce\\ei-homework\\HardWare"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",
